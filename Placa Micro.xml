@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Isaias\Escritorio\Tecnicas\Placa Micro\Placa Micro\Placa Micro.sch</source>
+    <date>29/06/2019 10:21:53</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Placa Micro.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Hembras_EntradaalMicro1">
+      <value>Conn_01x18_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x18_Female" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D47A7</tstamp>
+    </comp>
+    <comp ref="Hembras_EntradadeMicro1">
+      <value>Conn_01x18_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x18_Female" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D4830</tstamp>
+    </comp>
+    <comp ref="Hembras_SalidadelMicro1">
+      <value>Conn_01x18_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x18_Female" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D48ED</tstamp>
+    </comp>
+    <comp ref="Hembras_SalidadelMicro2">
+      <value>Conn_01x18_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x18_Female" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D4959</tstamp>
+    </comp>
+    <comp ref="Bluetooth1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D150B88</tstamp>
+    </comp>
+    <comp ref="L78">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1525BE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>224</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1526A9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>104</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D15273D</tstamp>
+    </comp>
+    <comp ref="Regulador1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D154401</tstamp>
+    </comp>
+    <comp ref="Regulador2">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D154578</tstamp>
+    </comp>
+    <comp ref="PuenteH2">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0D4A3B</tstamp>
+    </comp>
+    <comp ref="PuenteH1">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D1CD7B6</tstamp>
+    </comp>
+    <comp ref="Ultrasonido1">
+      <value>Conn_01x05_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Female" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D226305</tstamp>
+    </comp>
+    <comp ref="Obstaculo1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D25EBFC</tstamp>
+    </comp>
+    <comp ref="Fuego1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D270674</tstamp>
+    </comp>
+    <comp ref="Alimentacion1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D196EB5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Female">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x18_Female">
+      <description>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x18_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5V(regulado)">
+      <node ref="PuenteH1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="L78" pin="3"/>
+      <node ref="Bluetooth1" pin="5"/>
+      <node ref="Hembras_EntradaalMicro1" pin="3"/>
+      <node ref="Regulador2" pin="3"/>
+      <node ref="Hembras_SalidadelMicro2" pin="3"/>
+      <node ref="Ultrasonido1" pin="5"/>
+    </net>
+    <net code="2" name="Vcc(u)">
+      <node ref="Hembras_EntradaalMicro1" pin="18"/>
+      <node ref="Hembras_SalidadelMicro1" pin="18"/>
+      <node ref="Hembras_SalidadelMicro2" pin="17"/>
+      <node ref="Hembras_EntradaalMicro1" pin="17"/>
+      <node ref="Fuego1" pin="3"/>
+      <node ref="Obstaculo1" pin="2"/>
+      <node ref="Regulador1" pin="3"/>
+      <node ref="Hembras_SalidadelMicro2" pin="18"/>
+      <node ref="Hembras_EntradadeMicro1" pin="18"/>
+    </net>
+    <net code="3" name="25">
+      <node ref="Hembras_SalidadelMicro2" pin="7"/>
+      <node ref="Hembras_EntradaalMicro1" pin="7"/>
+    </net>
+    <net code="4" name="26">
+      <node ref="Hembras_SalidadelMicro2" pin="6"/>
+      <node ref="Hembras_EntradaalMicro1" pin="6"/>
+    </net>
+    <net code="5" name="27">
+      <node ref="Hembras_EntradaalMicro1" pin="5"/>
+      <node ref="Hembras_SalidadelMicro2" pin="5"/>
+    </net>
+    <net code="6" name="32">
+      <node ref="Hembras_SalidadelMicro2" pin="4"/>
+      <node ref="Hembras_EntradaalMicro1" pin="4"/>
+    </net>
+    <net code="7" name="1">
+      <node ref="Bluetooth1" pin="3"/>
+      <node ref="Hembras_SalidadelMicro1" pin="9"/>
+      <node ref="Hembras_EntradadeMicro1" pin="9"/>
+    </net>
+    <net code="8" name="44">
+      <node ref="Hembras_EntradadeMicro1" pin="8"/>
+      <node ref="Bluetooth1" pin="2"/>
+      <node ref="Hembras_SalidadelMicro1" pin="8"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="Ultrasonido1" pin="1"/>
+      <node ref="Ultrasonido1" pin="2"/>
+      <node ref="Hembras_SalidadelMicro2" pin="2"/>
+      <node ref="Hembras_EntradaalMicro1" pin="1"/>
+      <node ref="Alimentacion1" pin="2"/>
+      <node ref="Hembras_EntradaalMicro1" pin="2"/>
+      <node ref="Hembras_SalidadelMicro1" pin="1"/>
+      <node ref="Hembras_SalidadelMicro2" pin="1"/>
+      <node ref="Regulador2" pin="4"/>
+      <node ref="PuenteH1" pin="2"/>
+      <node ref="Bluetooth1" pin="4"/>
+      <node ref="Obstaculo1" pin="4"/>
+      <node ref="Fuego1" pin="2"/>
+      <node ref="Regulador1" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="L78" pin="2"/>
+      <node ref="Hembras_EntradadeMicro1" pin="1"/>
+    </net>
+    <net code="10" name="20">
+      <node ref="Hembras_EntradaalMicro1" pin="11"/>
+      <node ref="Hembras_SalidadelMicro2" pin="11"/>
+      <node ref="PuenteH2" pin="3"/>
+      <node ref="PuenteH2" pin="5"/>
+    </net>
+    <net code="11" name="21">
+      <node ref="Hembras_SalidadelMicro2" pin="10"/>
+      <node ref="Hembras_EntradaalMicro1" pin="10"/>
+    </net>
+    <net code="12" name="22">
+      <node ref="Hembras_SalidadelMicro2" pin="9"/>
+      <node ref="Hembras_EntradaalMicro1" pin="9"/>
+    </net>
+    <net code="13" name="24">
+      <node ref="Hembras_EntradaalMicro1" pin="8"/>
+      <node ref="Hembras_SalidadelMicro2" pin="8"/>
+    </net>
+    <net code="14" name="19">
+      <node ref="PuenteH2" pin="2"/>
+      <node ref="PuenteH2" pin="4"/>
+      <node ref="Hembras_EntradaalMicro1" pin="12"/>
+      <node ref="Hembras_SalidadelMicro2" pin="12"/>
+    </net>
+    <net code="15" name="14">
+      <node ref="Hembras_EntradaalMicro1" pin="16"/>
+      <node ref="Hembras_SalidadelMicro2" pin="16"/>
+    </net>
+    <net code="16" name="15">
+      <node ref="Hembras_SalidadelMicro2" pin="15"/>
+      <node ref="Hembras_EntradaalMicro1" pin="15"/>
+    </net>
+    <net code="17" name="16">
+      <node ref="Hembras_EntradaalMicro1" pin="14"/>
+      <node ref="Hembras_SalidadelMicro2" pin="14"/>
+    </net>
+    <net code="18" name="17">
+      <node ref="Regulador1" pin="6"/>
+      <node ref="Hembras_SalidadelMicro2" pin="13"/>
+      <node ref="Hembras_EntradaalMicro1" pin="13"/>
+    </net>
+    <net code="19" name="8">
+      <node ref="Hembras_EntradadeMicro1" pin="14"/>
+      <node ref="Obstaculo1" pin="3"/>
+      <node ref="Hembras_SalidadelMicro1" pin="14"/>
+    </net>
+    <net code="20" name="9">
+      <node ref="Hembras_SalidadelMicro1" pin="15"/>
+      <node ref="Hembras_EntradadeMicro1" pin="15"/>
+      <node ref="Fuego1" pin="4"/>
+    </net>
+    <net code="21" name="Net-(Fuego1-Pad1)">
+      <node ref="Fuego1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Obstaculo1-Pad1)">
+      <node ref="Obstaculo1" pin="1"/>
+    </net>
+    <net code="23" name="4">
+      <node ref="Ultrasonido1" pin="4"/>
+      <node ref="Hembras_SalidadelMicro1" pin="12"/>
+      <node ref="Hembras_EntradadeMicro1" pin="12"/>
+    </net>
+    <net code="24" name="5">
+      <node ref="Hembras_EntradadeMicro1" pin="13"/>
+      <node ref="Hembras_SalidadelMicro1" pin="13"/>
+      <node ref="Ultrasonido1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(Regulador1-Pad5)">
+      <node ref="Regulador1" pin="5"/>
+    </net>
+    <net code="27" name="Net-(Regulador1-Pad1)">
+      <node ref="Regulador1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(Regulador1-Pad2)">
+      <node ref="Regulador1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(Regulador2-Pad1)">
+      <node ref="Regulador2" pin="1"/>
+    </net>
+    <net code="30" name="Net-(Regulador2-Pad2)">
+      <node ref="Regulador2" pin="2"/>
+    </net>
+    <net code="31" name="Net-(Regulador2-Pad5)">
+      <node ref="Regulador2" pin="5"/>
+    </net>
+    <net code="32" name="Net-(Bluetooth1-Pad6)">
+      <node ref="Bluetooth1" pin="6"/>
+    </net>
+    <net code="33" name="Net-(Bluetooth1-Pad1)">
+      <node ref="Bluetooth1" pin="1"/>
+    </net>
+    <net code="34" name="PWM(Regulador)">
+      <node ref="Regulador2" pin="6"/>
+      <node ref="PuenteH2" pin="6"/>
+      <node ref="PuenteH2" pin="1"/>
+    </net>
+    <net code="35" name="12V">
+      <node ref="L78" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Alimentacion1" pin="1"/>
+      <node ref="PuenteH1" pin="3"/>
+    </net>
+    <net code="36" name="35">
+      <node ref="Hembras_SalidadelMicro1" pin="2"/>
+      <node ref="Hembras_EntradadeMicro1" pin="2"/>
+    </net>
+    <net code="37" name="11">
+      <node ref="Hembras_SalidadelMicro1" pin="17"/>
+      <node ref="Hembras_EntradadeMicro1" pin="17"/>
+    </net>
+    <net code="38" name="10">
+      <node ref="Hembras_EntradadeMicro1" pin="16"/>
+      <node ref="Hembras_SalidadelMicro1" pin="16"/>
+    </net>
+    <net code="39" name="3">
+      <node ref="Hembras_EntradadeMicro1" pin="11"/>
+      <node ref="Hembras_SalidadelMicro1" pin="11"/>
+    </net>
+    <net code="40" name="2">
+      <node ref="Hembras_SalidadelMicro1" pin="10"/>
+      <node ref="Hembras_EntradadeMicro1" pin="10"/>
+    </net>
+    <net code="41" name="41">
+      <node ref="Hembras_SalidadelMicro1" pin="7"/>
+      <node ref="Hembras_EntradadeMicro1" pin="7"/>
+    </net>
+    <net code="42" name="40">
+      <node ref="Hembras_EntradadeMicro1" pin="6"/>
+      <node ref="Hembras_SalidadelMicro1" pin="6"/>
+    </net>
+    <net code="43" name="39">
+      <node ref="Hembras_EntradadeMicro1" pin="5"/>
+      <node ref="Hembras_SalidadelMicro1" pin="5"/>
+    </net>
+    <net code="44" name="38">
+      <node ref="Hembras_SalidadelMicro1" pin="4"/>
+      <node ref="Hembras_EntradadeMicro1" pin="4"/>
+    </net>
+    <net code="45" name="36">
+      <node ref="Hembras_EntradadeMicro1" pin="3"/>
+      <node ref="Hembras_SalidadelMicro1" pin="3"/>
+    </net>
+  </nets>
+</export>

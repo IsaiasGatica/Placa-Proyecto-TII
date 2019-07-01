@@ -1,0 +1,81 @@
+
+(rules PCB Placa Micro_Menor espacio
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1122)
+    (layer_rule F.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 900.0)
+    (clear 400.2)
+    (clear 450.0 (type smd_to_turn_gap))
+    (clear 100.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_1300:750_um"
+    (shape
+      (circle F.Cu 1300.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1300.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1300:750_um" "Via[0-1]_1300:750_um" default
+  )
+  (via 
+    "Via[0-1]_1300:750_um-kicad_default" "Via[0-1]_1300:750_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_1300:750_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1300:750_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 900.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    12V GND "Net-(Bluetooth1-Pad1)" 44 1 "5V(regulado)" "Net-(Bluetooth1-Pad6)" 9
+    "Vcc(u)" "Net-(Fuego1-Pad1)" 32 27 26 25 24 22
+    21 20 19 17 16 15 14 11
+    10 8 5 4 3 2 41 40
+    39 38 36 35 "Net-(Obstaculo1-Pad1)" "PWM(Regulador)" "Net-(Regulador1-Pad5)" "Net-(Regulador1-Pad2)"
+    "Net-(Regulador1-Pad1)" "Net-(Regulador2-Pad1)" "Net-(Regulador2-Pad2)" "Net-(Regulador2-Pad5)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 900.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
