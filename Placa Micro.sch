@@ -20,7 +20,7 @@ U 1 1 5D0D47A7
 P 6200 1800
 F 0 "Hembras_EntradaalMicro1D1" H 6094 2785 50  0000 C CNN
 F 1 "Conn_01x18_Female" H 6094 2694 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical" H 6200 1800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x18_P2.00mm_Horizontal" H 6200 1800 50  0001 C CNN
 F 3 "~" H 6200 1800 50  0001 C CNN
 	1    6200 1800
 	-1   0    0    -1  
@@ -747,4 +747,19 @@ F 3 "~" H 2200 4350 50  0001 C CNN
 	1    2200 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x01_Female GND(Servo)1
+U 1 1 5D1AEC0D
+P 7050 3700
+F 0 "GND(Servo)1" H 7077 3726 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 7077 3635 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 7050 3700 50  0001 C CNN
+F 3 "~" H 7050 3700 50  0001 C CNN
+	1    7050 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 3700 0    50   Input ~ 0
+GND
+Wire Wire Line
+	6850 3700 6750 3700
 $EndSCHEMATC
